@@ -11,6 +11,8 @@ include::{sourceDir}/src/test/java/example/micronaut/AppClient.java[]
 <1> The method consumes plain text, because of it Micronaut includes the HTTP Header `Accept: text/plain`.
 <2> The first character of the parameter name is capitalized and that value (`Authorization`) is used the HTTP Header name. If you wish to change the parameter name you can specify the `@Header` annotation value.
 
+'''Is the sentence above true? Doesnt it have to be 'authorization'? And the whole sentence does not make sense.
+
 Create a test which uses the previous `@Client`
 
 [source,groovy]
